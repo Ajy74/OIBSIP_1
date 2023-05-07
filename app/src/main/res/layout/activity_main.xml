@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="72sp"
+        android:text="00:00:00" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:text="Start"
+        android:background="@drawable/button_background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:text="Stop"
+        android:background="@drawable/button_background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stopButton"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:text="Reset"
+        android:background="@drawable/button_background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+</RelativeLayout>
